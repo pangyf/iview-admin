@@ -1,7 +1,7 @@
 <template>
   <Form ref="loginForm" :model="form" :rules="rules">
     <FormItem prop="userName">
-      <Input v-model="form.userName" placeholder="请输入姓名">
+      <Input v-model="form.userName" placeholder="请输入用户名">
         <span slot="prepend">
           <Icon :size="16" type="person"></Icon>
         </span>
